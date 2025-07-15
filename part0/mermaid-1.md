@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
   participant browser as browser
   participant server as server
@@ -12,3 +13,4 @@ sequenceDiagram
   browser ->>+ server: POST https://studies.cs.helsinki.fi/exampleapp/data.json
   server -->>- browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
   Note right of browser: The browser responds with the new note added.
+```
